@@ -1,11 +1,16 @@
+#This is just a demo app to login into zerodha.
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 #read credentials from file
+#its always safe to store credential in different file. 
+#Saving credential in the script is not a good practise.
 f = open("cred.txt", "r")
 lines = f.readlines()
+#pass parameter based on your requirement
 usernameStr = lines[0] #username
 passwordStr = lines[1] #password
 pinStr = lines[2]      #pin
