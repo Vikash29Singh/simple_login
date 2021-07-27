@@ -3,10 +3,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# usernameStr = 'NA5676'
-# passwordStr = 'Vis@1829VS'
-# pinStr = '192996'
-
 #read credentials from file
 f = open("cred.txt", "r")
 lines = f.readlines()
