@@ -51,7 +51,7 @@ pyinstaller filename.py
 ~~~
 Your executable file is successfully created.
 
-To know more visit [pypi]('https://pypi.org/project/pyinstaller/') or [realpython]('https://realpython.com/pyinstaller-python/#using-pyinstaller').
+To know more visit [pypi](https://pypi.org/project/pyinstaller/) or [realpython](https://realpython.com/pyinstaller-python/#using-pyinstaller).
 
 
 
