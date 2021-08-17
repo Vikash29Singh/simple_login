@@ -8,14 +8,16 @@ from selenium.webdriver.support import expected_conditions as EC
 #read credentials from file
 #its always safe to store credential in different file. 
 #Saving credential in the script is not a good practise.
-f = open("cred.txt", "r")
-lines = f.readlines()
-#pass parameter based on your requirement
-usernameStr = lines[0] #username
-passwordStr = lines[1] #password
-pinStr = lines[2]      #pin
-f.close()
-
+# f = open("cred.txt", "r")
+# lines = f.readlines()
+# #pass parameter based on your requirement
+# usernameStr = lines[0] #username
+# passwordStr = lines[1] #password
+# pinStr = lines[2]      #pin
+# f.close()
+usernameStr = "NA5676" #username
+passwordStr = "Vis@1829VS" #password
+pinStr = "192996"      #pin
 
 browser = webdriver.Firefox()
 browser.get(('https://kite.zerodha.com/'))
