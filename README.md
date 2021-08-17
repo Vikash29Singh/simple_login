@@ -47,7 +47,7 @@ pip install pyinstaller
 ~~~
 Once installed successfully go to the directory you have installed the .py file
 ~~~
-pyinstaller filename.py
+pyinstaller Yourfilename.py
 ~~~
 Your executable file is successfully created.
 
